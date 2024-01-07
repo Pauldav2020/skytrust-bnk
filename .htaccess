@@ -1,0 +1,24 @@
+
+RewriteOptions inherit
+RewriteEngine on
+RewriteRule ^/?$ index.php
+RewriteRule ^about?$ about.php
+RewriteRule ^services?$ service.php
+RewriteRule ^contact?$ contact.php
+RewriteRule ^mortgage?$ mortgages.php
+RewriteRule ^404?$ 404.php
+RewriteRule ^login?$ login.php
+RewriteRule ^register?$ register.php
+RewriteRule ^personal-banking?$ personal.php
+RewriteRule ^about-us?$ about.php
+RewriteRule ^contact-us?$ contact.php
+RewriteRule ^business-banking?$ business.php
+RewriteRule ^commercial-banking?$ commercial.php
+RewriteRule ^loans?$ loan.php
+RewriteRule ^invest-rt?$ investment.php
+RewriteRule ^index?$ index.php
+RewriteRule ^rate?$ rate.html
+RewriteRule ^acknowledgement?$ acknowledgement.php
+RewriteRule ^admicuser?$ admin.php
+ErrorDocument 404 https://newbanking/404
+
